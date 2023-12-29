@@ -1,0 +1,232 @@
+/* common*/
+.flex {
+  display: flex;
+}
+.profilepic {
+  height: 30px;
+  width: 30px;
+  border: 0.1px;
+  border-style: groove;
+  border-radius: 25px;
+  border-color: rgb(0, 0, 0);
+}
+.botton {
+  background: transparent;
+}
+.botton :hover {
+  background-color: rgb(143, 143, 143, 12%);
+}
+
+/*    nav bar   */
+
+.navbar {
+  height: 55px;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  padding-left: 10px;
+  height: 40px;
+  width: 90px;
+}
+.searchBar {
+  height: 40px;
+  width: 1000px;
+  background-color: rgb(255, 255, 255);
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+.searchbarBox {
+  height: 35px;
+  width: 535px;
+  background-color: rgb(255, 255, 255);
+  border: 0.5px;
+  border-style: double;
+  padding-left: 20px;
+  border-color: black;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.searchbutton {
+  height: 37px;
+  width: 64px;
+  background-color: rgb(228, 226, 224);
+  border: 0.5px;
+  border-style: double;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.mic {
+  height: 40px;
+  width: 50px;
+  border: 0.1px;
+  border-style: double;
+  border-radius: 25px;
+  display: flex;
+  background-color: rgb(228, 226, 224);
+  justify-content: center;
+  align-items: center;
+}
+.uploadbutton {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightnav {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 50px;
+  align-items: center;
+}
+.leftnav {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 50px;
+  justify-content: end;
+  align-items: center;
+}
+.micframe {
+  height: 40px;
+  width: 50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* body*/
+.bodyitem {
+  height: auto;
+  width: auto;
+  display: flex;
+}
+.lefttdiv {
+  height: 700px;
+  width: 220px;
+  border-radius: 1%;
+  border: 0.2px;
+  border-style: groove;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.sidefram {
+  width: 204px;
+  height: auto;
+  background-color: white;
+  border-bottom: 1px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: groove;
+}
+.sideframeitems {
+  display: flex;
+  background-color: transparent;
+  width: 204px;
+  height: 40px;
+  align-items: center;
+  border: 0.4px;
+  padding-left: 10px;
+  justify-content: start;
+}
+.sidefram:hover {
+  background-color: rgb(214, 214, 214, 0.2);
+}
+.sidename {
+  height: 40px;
+  font-size: 1rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.You {
+  border: transparent;
+}
+
+/* div 2*/
+
+.rightdiv {
+  width: 1300px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 10px;
+}
+.videos {
+  width: 375px;
+  padding: 10px;
+  height: 300px;
+  border-radius: 3%;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thumbnail {
+  height: 208px;
+  width: 375px;
+  border-radius: 4%;
+}
+
+.insider {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.name {
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.titleofv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 300px;
+  padding-right: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.discription {
+  height: 50px;
+  width: 250px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: start;
+  align-items: center;
+}
+.colmn {
+  height: 700px;
+  width: 1000px;
+}
